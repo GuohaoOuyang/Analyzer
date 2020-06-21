@@ -1,0 +1,17 @@
+			if
+			    not model.is_class_duplicate (cn)
+			then
+				model.set_status (model.e_report.set_e04 (cn))
+			elseif
+				model.assignment_not_finished
+			then
+				model.set_status (model.e_report.set_e02 (model.fna, model.cna))
+			elseif
+				(not model.is_f_duplicate (cn, fn))
+			then
+				model.set_status (model.e_report.set_e10 (fn, cn))
+			elseif
+				model.is_f_attribute (cn, cn)
+			then
+				model.set_status (model.e_report.set_e11 (fn, cn))
+			else

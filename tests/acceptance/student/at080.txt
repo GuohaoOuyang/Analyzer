@@ -1,0 +1,15 @@
+-- An example program that's type correct.
+add_class("A")
+add_attribute("A", "i", "INTEGER")
+add_command("A", "set_i", <<["x", "INTEGER"], ["y", "INTEGER"]>>)
+
+add_assignment_instruction("A", "set_i", "i")
+
+-- Now the RHS of an assignment `i = ?` in the command `set_i` in class `A` is being specified.
+
+-- The intended RHS of assignment: ((1 + 2) * 3)
+
+
+multiplication
+
+addition 

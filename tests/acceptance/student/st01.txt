@@ -1,0 +1,13 @@
+add_class("A")
+add_attribute("A","i","INTEGER")
+add_command("A","set_i",<<["x", "INTEGER"], ["y", "INTEGER"]>>)
+add_assignment_instruction("A","set_i","i")
+multiplication
+addition
+generate_java_code
+subtraction
+generate_java_code
+int_value(3)
+generate_java_code
+int_value(4)
+generate_java_code
