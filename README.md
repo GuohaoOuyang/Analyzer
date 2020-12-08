@@ -14,8 +14,8 @@ Designed an advanced calculator that support set operations, java like code genr
 * Open-Close principle
 * Information Hiding Principle
 
-## Diagram
-
+## BON Diagram
+![bon](java-calculator/bon.png?raw=true "Optional Title")
 
 ## Test
 Build with regression testing under Eiffel testing framework
