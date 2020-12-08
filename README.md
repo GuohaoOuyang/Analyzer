@@ -1,5 +1,5 @@
 ## Name
-Java Calculator
+Java Calculator(Analyzer)
 
 ## Description
 Designed an advanced calculator that support set operations, java like code genration and type checking
