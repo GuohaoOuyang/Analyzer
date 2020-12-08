@@ -1,4 +1,4 @@
-## Project title
+## Name
 Java Calculator
 
 ## Description
@@ -20,4 +20,6 @@ Designed an advanced calculator that support set operations, java like code genr
 ## Test
 Build with regression testing under Eiffel testing framework
 
+## Acknowledgment
+**Youngjin Ko**
 
